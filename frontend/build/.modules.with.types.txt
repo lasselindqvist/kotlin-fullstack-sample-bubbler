@@ -1,0 +1,16 @@
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\ajv
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\array-flatten
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\es6-promise
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\express\node_modules\setprototypeof
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\fsevents\node_modules\ajv
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\hash.js
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\iconv-lite
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\icss-utils\node_modules\source-map
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\path-to-regexp
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\performance-now
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\postcss-modules-extract-imports\node_modules\source-map
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\postcss-modules-local-by-default\node_modules\source-map
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\postcss-modules-scope\node_modules\source-map
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\postcss-modules-values\node_modules\source-map
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\source-map
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\webpack-sources\node_modules\source-map

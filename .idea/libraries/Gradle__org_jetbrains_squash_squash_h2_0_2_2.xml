@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.squash:squash-h2:0.2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.squash/squash-h2/0.2.2/13f5c2f5b2df7e0e3ef96a4c52859be98c010f50/squash-h2-0.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.squash/squash-h2/0.2.2/c2bf5004cfdecaef1b369c1f0f29512775c6bf02/squash-h2-0.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

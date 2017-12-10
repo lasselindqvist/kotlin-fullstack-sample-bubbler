@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.squash:squash-graph:0.2.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.squash/squash-graph/0.2.2/4896d0a90911069b12b916b856f556d7760911b8/squash-graph-0.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.squash/squash-graph/0.2.2/c40a4188c4e28433c3fb3c769b84d031d022bc78/squash-graph-0.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

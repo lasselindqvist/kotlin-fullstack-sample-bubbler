@@ -1,0 +1,3 @@
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\kotlin
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\kotlin-test
+C:\Users\Admin\Documents\Projektit\eclipse\kotlin-fullstack-sample-master\frontend\build\node_modules\kotlinx-html-js

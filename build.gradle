@@ -1,0 +1,34 @@
+group = 'org.jetbrains.demo.bubbler'
+version = '0.0.1-SNAPSHOT'
+
+subprojects { p ->
+    p.buildscript {
+        ext.kotlin_version = "1.1.51"
+
+        repositories {
+            mavenLocal()
+            jcenter()
+            maven { url "http://dl.bintray.com/kotlin/kotlin-eap" }
+        }
+        
+        dependencies {
+            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+            classpath "org.jetbrains.kotlin:kotlin-frontend-plugin:0.0.23"
+        }
+    }
+}
+
+subprojects {
+    ext.kotlin_version = "1.1.51"
+    ext.html_version = "0.6.6"
+    ext.ktor_version = "0.3.0"
+    ext.squash_version = "0.2.2"
+
+    repositories {
+        mavenLocal()
+        jcenter()
+        maven { url "http://dl.bintray.com/kotlin/kotlinx.html" }
+        maven { url "http://dl.bintray.com/kotlin/ktor" }
+        maven { url "https://dl.bintray.com/kotlin/squash" }
+    }
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.ktor:ktor-auth:0.3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.ktor/ktor-auth/0.3.0/9f0f0a0386e4a3255024d7fdb986ee3c81201db0/ktor-auth-0.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.ktor/ktor-auth/0.3.0/c74f0e442d19c1bbbd36c505ed9d6460bacfe8a9/ktor-auth-0.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

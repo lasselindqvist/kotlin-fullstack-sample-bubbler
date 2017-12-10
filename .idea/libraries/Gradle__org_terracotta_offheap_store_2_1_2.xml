@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.terracotta:offheap-store:2.1.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.terracotta/offheap-store/2.1.2/62beac8f8c9497a5e2b622ffef755f0b15cca1b7/offheap-store-2.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.terracotta/offheap-store/2.1.2/cffaf2a1f4e67d2a4cf438ddce76b430fd40d569/offheap-store-2.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

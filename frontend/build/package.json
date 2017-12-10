@@ -1,0 +1,31 @@
+{
+    "name": "frontend",
+    "version": "0.0.1-SNAPSHOT",
+    "description": "Bubbler \u2013 full-stack Kotlin application demo",
+    "main": "frontend",
+    "dependencies": {
+        "react": "*",
+        "react-dom": "*",
+        "react-router": "*",
+        "jquery": "*",
+        "react-markdown": "*",
+        "kotlin-test": "file:///C:/Users/Admin/Documents/Projektit/eclipse/kotlin-fullstack-sample-master/frontend/build/node_modules_imported/kotlin-test/",
+        "kotlinx-html-js": "file:///C:/Users/Admin/Documents/Projektit/eclipse/kotlin-fullstack-sample-master/frontend/build/node_modules_imported/kotlinx-html-js/",
+        "kotlin": "file:///C:/Users/Admin/Documents/Projektit/eclipse/kotlin-fullstack-sample-master/frontend/build/node_modules_imported/kotlin/"
+    },
+    "devDependencies": {
+        "css-loader": "*",
+        "style-loader": "*",
+        "babel-loader": "*",
+        "babel-core": "*",
+        "karma": "*",
+        "webpack": "*",
+        "webpack-dev-server": "*",
+        "qunitjs": "1.23.1",
+        "karma-qunit": "*",
+        "karma-sourcemap-loader": "*",
+        "karma-phantomjs-launcher": "*",
+        "phantomjs-prebuilt": "*",
+        "karma-webpack": "*"
+    }
+}

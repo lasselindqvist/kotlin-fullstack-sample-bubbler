@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":backend:test" external.linked.project.path="$MODULE_DIR$/../../../backend" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="org.jetbrains.demo.bubbler" external.system.module.type="sourceSet" external.system.module.version="0.0.1-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../backend/build/classes/kotlin/test" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="backend" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.1" />
+          <option name="apiVersion" value="1.1" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="coroutinesState" value="enable" />
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output-test url="file://$MODULE_DIR$/../../../backend/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../backend/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../backend/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../backend/src/test/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../backend/src/test/resources" type="java-test-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../backend/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../backend/test" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../backend/testResources">
+      <sourceFolder url="file://$MODULE_DIR$/../../../backend/testResources" type="java-test-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="backend_main" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.ktor:ktor-locations:0.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.ktor:ktor-html-builder:0.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.ktor:ktor-jetty:0.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.ktor:ktor-test-host:0.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.ktor:ktor-auth:0.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.ktor:ktor-servlet:0.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.ktor:ktor-hosts-common:0.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.ktor:ktor-core:0.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:0.12" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-html-jvm:0.6.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.squash:squash-h2:0.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.squash:squash-jdbc:0.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.squash:squash-graph:0.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.squash:squash-core:0.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core:0.12" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.1.51" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.1.51" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test:1.1.51" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.51" level="project" />
+    <orderEntry type="library" name="Gradle: org.ehcache:ehcache:3.0.0.m4" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jsoup:jsoup:1.9.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-runtime:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.terracotta:offheap-store:2.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.24" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe:config:1.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.h2database:h2:1.4.191" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-alpn-server:9.4.1.v20170120" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.http2:http2-server:9.4.1.v20170120" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-server:9.4.1.v20170120" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-servlets:9.4.1.v20170120" level="project" />
+    <orderEntry type="library" name="Gradle: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.1" level="project" />
+    <orderEntry type="library" name="Gradle: net.bytebuddy:byte-buddy:1.4.22" level="project" />
+    <orderEntry type="library" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.http2:http2-common:9.4.1.v20170120" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.http2:http2-hpack:9.4.1.v20170120" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-http:9.4.1.v20170120" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-io:9.4.1.v20170120" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-continuation:9.4.1.v20170120" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-util:9.4.1.v20170120" level="project" />
+    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+  </component>
+  <component name="TestModuleProperties" production-module="backend_main" />
+</module>

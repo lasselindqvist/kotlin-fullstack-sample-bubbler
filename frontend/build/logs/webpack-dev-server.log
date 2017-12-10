@@ -1,0 +1,53 @@
+The `setup` option is deprecated and will be removed in v3. Please update your config to use `before`
+webpack: wait until bundle finished: /frontend/frontend.bundle.js
+
+webpack: Compiled successfully.
+webpack: Compiling...
+
+webpack: Compiled successfully.
+webpack: Compiling...
+
+webpack: Compiled successfully.
+webpack: Compiling...
+
+webpack: Compiled successfully.
+webpack: Compiling...
+webpack: wait until bundle finished: /frontend/frontend.js.map
+
+webpack: Compiled successfully.
+webpack: Compiling...
+
+webpack: Compiled successfully.
+webpack: Compiling...
+
+webpack: Compiled successfully.
+webpack: Compiling...
+
+webpack: Compiled successfully.
+webpack: Compiling...
+
+webpack: Compiled successfully.
+webpack: Compiling...
+
+webpack: Compiled successfully.
+webpack: Compiling...
+
+webpack: Compiled successfully.
+webpack: Compiling...
+
+webpack: Compiled successfully.
+webpack: Compiling...
+
+webpack: Compiled successfully.
+webpack: Compiling...
+
+webpack: Compiled successfully.
+webpack: Compiling...
+
+webpack: Compiled successfully.
+webpack: Compiling...
+
+webpack: Compiled successfully.
+webpack: Compiling...
+
+webpack: Compiled successfully.

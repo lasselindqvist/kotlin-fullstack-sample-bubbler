@@ -1,0 +1,3 @@
+kotlin-test/1.1.51/1.1.51/file:///C:/Users/Admin/Documents/Projektit/eclipse/kotlin-fullstack-sample-master/frontend/build/node_modules_imported/kotlin-test/
+kotlinx-html-js/0.6.6/1.1.0/file:///C:/Users/Admin/Documents/Projektit/eclipse/kotlin-fullstack-sample-master/frontend/build/node_modules_imported/kotlinx-html-js/
+kotlin/1.1.51/1.1.51/file:///C:/Users/Admin/Documents/Projektit/eclipse/kotlin-fullstack-sample-master/frontend/build/node_modules_imported/kotlin/
