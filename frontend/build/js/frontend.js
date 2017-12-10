@@ -3105,7 +3105,6 @@
     if (json.error != null) {
       throw new ShowingBubbleFailedException(json.error.toString());
     }
-    console.log(json.toString());
     return new ShowBubbleResponse(json.bubble, json.top, json.latest, json.date, json.code);
   }
   function parseViewBubbleResponse(json) {
@@ -3500,7 +3499,7 @@
       var tmp$;
       h3($receiver, void 0, ShowBubbleComponent$render$lambda$lambda$lambda$lambda_3);
       if (!closure$top.isEmpty()) {
-        tmp$ = toMutableList(closure$top).iterator();
+        tmp$ = closure$top.iterator();
         while (tmp$.hasNext()) {
           var t = tmp$.next();
           closure$thoughtLi($receiver, t);
@@ -3518,7 +3517,7 @@
       var tmp$;
       h3($receiver, void 0, ShowBubbleComponent$render$lambda$lambda$lambda$lambda_4);
       if (!closure$latest.isEmpty()) {
-        tmp$ = toMutableList(closure$latest).iterator();
+        tmp$ = closure$latest.iterator();
         while (tmp$.hasNext()) {
           var t = tmp$.next();
           closure$thoughtLi($receiver, t);
@@ -3539,8 +3538,8 @@
     return function ($receiver) {
       form($receiver, void 0, void 0, void 0, 'pure-form pure-form-stacked', ShowBubbleComponent$render$lambda$lambda(this$render, this$ShowBubbleComponent));
       if (this$ShowBubbleComponent.state.showBubbleResponse != null && !this$ShowBubbleComponent.state.loading) {
-        var latest = this$ShowBubbleComponent.state.latest;
-        var top = this$ShowBubbleComponent.state.top;
+        var latest = toMutableList(this$ShowBubbleComponent.state.latest);
+        var top = toMutableList(this$ShowBubbleComponent.state.top);
         div_0($receiver, void 0, ShowBubbleComponent$render$lambda$lambda_0(top, closure$thoughtLi, latest));
       }
       return Unit;
@@ -3593,19 +3592,10 @@
             throw this.exception_0;
           case 2:
             this.local$localResponse = this.result_0;
-            if (this.local$localResponse != null) {
-              this.local$this$ShowBubbleComponent.state.showBubbleResponse = this.local$localResponse;
-              this.local$this$ShowBubbleComponent.state.latest = this.local$localResponse.latest;
-              this.local$this$ShowBubbleComponent.state.top = this.local$localResponse.top;
-              return this.local$this$ShowBubbleComponent.state.loading = false, Unit;
-            }
-             else {
-              this.state_0 = 3;
-              continue;
-            }
-
-          case 3:
-            return Unit;
+            this.local$this$ShowBubbleComponent.state.showBubbleResponse = this.local$localResponse;
+            this.local$this$ShowBubbleComponent.state.latest = this.local$localResponse.latest;
+            this.local$this$ShowBubbleComponent.state.top = this.local$localResponse.top;
+            return this.local$this$ShowBubbleComponent.state.loading = false, Unit;
         }
       }
        catch (e) {
@@ -3627,9 +3617,6 @@
   ShowBubbleComponent.prototype.doShow_0 = function () {
     this.setState_hgm6vj$(ShowBubbleComponent$doShow$lambda);
     async(ShowBubbleComponent$doShow$lambda_0(this)).catch(ShowBubbleComponent$doShow$lambda_1(this));
-    console.log(Kotlin.toString(this.state.showBubbleResponse));
-    console.log(this.state.latest.toString());
-    console.log(this.state.top.toString());
   };
   function ShowBubbleComponent$showFailed$lambda(closure$err) {
     return function ($receiver) {

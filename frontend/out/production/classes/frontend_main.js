@@ -3104,7 +3104,6 @@
     if (json.error != null) {
       throw new ShowingBubbleFailedException(json.error.toString());
     }
-    console.log(json.toString());
     return new ShowBubbleResponse(json.bubble, json.top, json.latest, json.date, json.code);
   }
   function parseViewBubbleResponse(json) {
@@ -3590,19 +3589,10 @@
             throw this.exception_0;
           case 2:
             var localResponse = this.result_0;
-            if (localResponse != null) {
-              this.local$this$ShowBubbleComponent.state.showBubbleResponse = localResponse;
-              this.local$this$ShowBubbleComponent.state.latest = localResponse.latest;
-              this.local$this$ShowBubbleComponent.state.top = localResponse.top;
-              return this.local$this$ShowBubbleComponent.state.loading = false, Unit;
-            }
-             else {
-              this.state_0 = 3;
-              continue;
-            }
-
-          case 3:
-            return Unit;
+            this.local$this$ShowBubbleComponent.state.showBubbleResponse = localResponse;
+            this.local$this$ShowBubbleComponent.state.latest = localResponse.latest;
+            this.local$this$ShowBubbleComponent.state.top = localResponse.top;
+            return this.local$this$ShowBubbleComponent.state.loading = false, Unit;
         }
       }
        catch (e) {
@@ -3624,9 +3614,6 @@
   ShowBubbleComponent.prototype.doShow_0 = function () {
     this.setState_hgm6vj$(ShowBubbleComponent$doShow$lambda);
     async(ShowBubbleComponent$doShow$lambda_0(this)).catch(ShowBubbleComponent$doShow$lambda_1(this));
-    console.log(toString(this.state.showBubbleResponse));
-    console.log(this.state.latest.toString());
-    console.log(this.state.top.toString());
   };
   function ShowBubbleComponent$showFailed$lambda(closure$err) {
     return function ($receiver) {
